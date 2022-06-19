@@ -29,7 +29,7 @@ const getUniqueID = () => {
 const clients = {};
 // Користувачі що доєднались до редагування
 const users = {};
-// The current editor content is maintained here.
+// Тут зберігаємо поточний вміст редактора
 let editorContent = null;
 // історія дій користуача
 let userActivity = [];
